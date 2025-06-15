@@ -9,7 +9,7 @@
         // Verificamos producto
         $check_producto = conexion();
         $check_producto = $check_producto ->query("SELECT usuario_id FROM producto WHERE usuario_id='$user_id_del' LIMIT 1"); 
-        if($check_producto->rowCount() == 0){
+        if($check_producto->rowCount() == 0){ #el usuario es una llave foranea de producto, si no tiene productos registrados, se puede eliminar
             // Verificamos usuario
             $eliminar_usuario = conexion();
             $eliminar_usuario = $eliminar_usuario->prepare("DELETE FROM usuario WHERE usuario_id=:id"); #query para consultas y prepare para otras consultas, se utiliza un marcador(:id) para evitar inyecciones SQL

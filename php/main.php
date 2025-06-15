@@ -81,8 +81,7 @@
 
     // funcion paginador 
     function paginador_tablas($pagina, $total_paginas, $url, $botones){
-        $tabla = '<nav class="pagination is-centered is-rounded" role="navigation"
-        aria-label="pagination">';
+        $tabla = '<nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">';
 
         if($pagina <= 1){ # si la pagina es menor o igual a 1 se desactiva el boton de anterior
             $tabla .= '

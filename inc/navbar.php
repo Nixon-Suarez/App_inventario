@@ -42,7 +42,7 @@
                 <div class="navbar-dropdown">
                     <a class="navbar-item" href="?vista=product_new">Nuevo</a>
                     <a class="navbar-item" href="?vista=product_list">Lista</a>
-                    <a class="navbar-item">Por categoria</a>
+                    <a class="navbar-item" href="?vista=product_category">Por categoria</a>
                     <a class="navbar-item" href="?vista=product_search">Buscar</a>
                 </div>
             </div>
