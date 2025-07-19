@@ -28,7 +28,7 @@
         <?php
             if(isset($_POST['login_usuario']) && isset($_POST['login_clave'])){ #si el post de login_usuario y el login_clave traen datos 
                 require_once "./php/main.php";
-                require_once "./php/iniciar_sesion.php"; 
+                require_once "./php/iniciar_    sesion.php"; 
             }
         ?>
     </form>
